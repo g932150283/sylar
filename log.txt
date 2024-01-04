@@ -1,0 +1,6 @@
+[2024-01-04 17:58:55:850] 1704362335 file_logger ERROR error msg
+[2024-01-04 17:58:55:850] 1704362335 file_logger ERROR err msg by stream
+[2024-01-04 17:58:58:721] 1704362338 file_logger ERROR error msg
+[2024-01-04 17:58:58:721] 1704362338 file_logger ERROR err msg by stream
+[2024-01-04 17:58:59:967] 1704362339 file_logger ERROR error msg
+[2024-01-04 17:58:59:967] 1704362339 file_logger ERROR err msg by stream
