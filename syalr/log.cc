@@ -1,4 +1,5 @@
 #include "log.h"
+
 #include <map>
 #include <iostream>
 #include <functional>

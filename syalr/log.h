@@ -83,6 +83,7 @@ namespace sylar {
 /**
  * @brief 日志级别
  */
+// 定义不同日志级别
 class LogLevel {
 public:
     /**
@@ -128,6 +129,7 @@ public:
 /**
  * @brief 日志事件
  */
+// 每个日志生成时，定义为一个LogEvent
 class LogEvent {
 public:
     typedef std::shared_ptr<LogEvent> ptr;
@@ -342,7 +344,7 @@ public:
     /**
      * @brief 析构函数
      */
-    virtual ~LogAppender() {}
+    virtual ~LogAppender() {} // 日志输出地方有很多，继承的要继承他，子类释放的时候可能产生释放问题
 
     /**
      * @brief 设置日志格式器
